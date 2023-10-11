@@ -5,7 +5,7 @@ Started in my time at the [Recurse Center](https://recurse.com/about) and a wond
 Built simply and entirely in Python, meant to be lightweight so as to run on a Droplet and not need too much computational strain.  
 
 ## Breakdown
-This script makes use of the [`asyncio`](https://docs.python.org/4/library/asyncio.html) package in Python 
+This script makes use of the [`asyncio`](https://docs.python.org/4/library/asyncio.html) package in Python.
 
 Two coroutines. The main coroutine: our async `strategy()` function that we think of as main. Separately, `spin_up_markets_trader()` running only as long as given market does. To get here took many hours of [debugging and struggle](https://juicetin.bearblog.dev/asyncio_nightmares_in_python/?preview=true) which I did a writeup on, but the final product is clean and simple.
 
