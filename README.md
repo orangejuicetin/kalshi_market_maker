@@ -26,5 +26,5 @@ Generated these in a separate Jupyter notebook I didn't commit to this repo b/c 
 
 ![INXD-23SEP11-B4462_bidask_vs_price](https://github.com/orangejuicetin/kalshi_market_maker/assets/47411373/3b2b4bc7-328c-49df-a5e6-4757bd07f01b)
 
-1. The volatility in bid-ask is quite crazy, makes me wonder how this would compare to a standard options/equities orderbook graph
-2. The timing and quantity of certain trades at various prices seem to suggest the activity of other market makers on platform or just very heuristic-based retail traders. Intriguing.
+1. The initial volatility in bid-ask quotes is quite crazy, makes me wonder how this would compare to a standard options/equities orderbook graph. Also wondering if it's Kalshi themselves making these very frequent, constant changing in limit order placing til something catches! 
+2. The timing and quantity of certain trades at various prices seem to suggest the activity of other market makers on platform or just very heuristic-based retail traders. This was the starting point for me trying to find places where this algorithm can ultimately be _useful_, providing a service of some sort to provide liquidity. 
