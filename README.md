@@ -18,3 +18,13 @@ Simple. Easy.
 A natural extension being considered is to increase this event loop to handle different events with different expiries – have this main coroutine spin up one coroutine that tracks a certain event that expires weekly, spin up a different one that tracks a same-day expiring event, so on and so forth. For now, this project is in a steady state so as for me to commit these changes, but as time goes on if this structure changes I'll update this repo accordingly. 
 
 If you're also interested in markets and ever want to chat finance, more than happy to chat! Ping me on email ~
+
+## Some interesting explorations of market behavior 
+Generated these in a separate Jupyter notebook I didn't commit to this repo b/c of credentials, but thought that they were interesting enough to exhibit here: 
+
+![INXD-23SEP11-B4462_trade_vs_price](https://github.com/orangejuicetin/kalshi_market_maker/assets/47411373/5ca0b16c-3056-4947-8401-735de784116a)
+
+![INXD-23SEP11-B4462_bidask_vs_price](https://github.com/orangejuicetin/kalshi_market_maker/assets/47411373/3b2b4bc7-328c-49df-a5e6-4757bd07f01b)
+
+1. The volatility in bid-ask is quite crazy, makes me wonder how this would compare to a standard options/equities orderbook graph
+2. The timing and quantity of certain trades at various prices seem to suggest the activity of other market makers on platform or just very heuristic-based retail traders. Intriguing.
